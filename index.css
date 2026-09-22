@@ -83,4 +83,22 @@ body {
         justify-content: space-between;
         gap: 12px;
     }
+
+    .hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    max-height: 75vh;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
 }
